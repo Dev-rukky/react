@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  /* padding: 13.125rem 21.625rem 1.0625rem 21.6875rem; */
+  gap: 5.625rem;
+}
+
+
+.App-header {
+  /* height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  color: black;
+  width: 36.6875rem;
+  height: 25.6875rem;
+}
+
+.Heading h1 {
+  font-size: 3.125rem;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 2.1325rem;
+}
+
+.First h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 1rem;
+}
+
+.First p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.First {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1.31rem;
+}
+
+
+@media only screen and (max-width: 375px) {
+  .Heading h1 {
+    font-size: 2rem;
+  }
+}

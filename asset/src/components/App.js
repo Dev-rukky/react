@@ -21,8 +21,9 @@ function App() {
           <h4>Hosting</h4>
           <p>Each level must be placed in a different branch on the github repository named React Learn</p>
         </div>
-
       </header>
+
+      <p className="end">Remember to Have Fun!</p>
     </div>
   );
 }
